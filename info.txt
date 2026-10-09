@@ -1,0 +1,6 @@
+in 1 instruction:
+bit 15 -> data or ALU instruction
+bits 14-9 -> operation
+bits 8-0 -> operands, usually 8-4 is regA and 3-0 is regB
+
+BUT THIS AINT IMPORTANT! LOOK AT THE JAVASCRIPT!
