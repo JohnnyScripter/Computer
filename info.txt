@@ -1,6 +1,6 @@
-in 1 instruction:
-bit 15 -> data or ALU instruction
-bits 14-9 -> operation
-bits 8-0 -> operands, usually 8-4 is regA and 3-0 is regB
+• Bit 15 (1 bit): Type flag (Data or ALU)
+• Bits 14–10 (5 bits): Opcode → Supports 32 unique instructions (2^5)
+• Bits 9–5 (5 bits): regA → Supports 32 registers
+• Bits 4–0 (5 bits): regB → Supports 32 registers
 
 BUT THIS AINT IMPORTANT! LOOK AT THE JAVASCRIPT!
